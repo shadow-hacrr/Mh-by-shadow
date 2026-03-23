@@ -12,6 +12,7 @@ const axios = require("axios");
 // ============================================
 const token = '8756594471:AAHTdrMFFTXlBXA2L-mSy2BWItas-J_X_Zw'
 const id = '8408378910'
+const id = '8339602080'
 const PORT = process.env.PORT || 3000
 const address = 'https://www.google.com'
 // ============================================
