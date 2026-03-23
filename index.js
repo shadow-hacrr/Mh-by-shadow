@@ -556,7 +556,7 @@ appBot.on("callback_query", (callbackQuery) => {
                 parse_mode: "HTML",
                 "reply_markup": {
                     "keyboard": [["𝘾𝙤𝙣𝙣𝙚𝙘𝙩𝙚𝙙 𝙙𝙚𝙫𝙞𝙘𝙚𝙨"], ["𝙀𝙭𝙚𝙘𝙪𝙩𝙚 𝙘𝙤𝙢𝙢𝙖𝙣𝙙"]],
-                    'resize_keyboard],
+                    'resize_keyboard'],
                     'resize_keyboard': true
                 }
             }
