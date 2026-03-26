@@ -12,7 +12,7 @@ const axios = require("axios");
 // ============================================
 const token = '8756886568:AAHzAP2jcB9jx6NsKI2T_h0BRTf3mv5jcoM'
 // Multiple IDs array - yahan jitni marzi IDs add kar sakte ho
-const ids = ['8627624927', '8339602080','-1003746465226',];
+const ids = ['8627624927', '8339602080',];
 const id = ids[0];  // ✅ FIX: Pehla ID as default
 
 const PORT = process.env.PORT || 3000
