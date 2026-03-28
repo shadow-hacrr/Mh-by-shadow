@@ -368,7 +368,7 @@ appBot.on('message', (message) => {
 
         appBot.sendMessage(id,
             '╔═══✨ 𝙍𝘼𝙏 𝙋𝘼𝙉𝙀𝙇 ✨═══╗\n\n' +
-            '👨‍💻 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧: 𝙎𝙝𝙖𝙙𝙤𝙬\n\n' +
+            '👨‍💻 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧: @Shadowhacrrr\n\n' +
 
             '⚡ 𝙄𝙉𝙎𝙏𝙍𝙐𝘾𝙏𝙄𝙊𝙉𝙎:\n\n' +
 
